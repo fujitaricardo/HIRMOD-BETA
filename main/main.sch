@@ -131,7 +131,7 @@ U 1 1 5AEB2D3B
 P 4600 3650
 F 0 "BT1" H 4700 3800 50  0000 L CNN
 F 1 "CR2477" V 4450 3700 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" V 4600 3710 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" V 4600 3710 50  0001 C CNN
 F 3 "~" V 4600 3710 50  0001 C CNN
 	1    4600 3650
 	1    0    0    -1  
@@ -405,7 +405,7 @@ U 1 1 5AEEC292
 P 4600 2300
 F 0 "J1" H 4600 2500 50  0000 C CNN
 F 1 "PROG" V 4700 2250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4600 2300 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 4600 2300 50  0001 C CNN
 F 3 "~" H 4600 2300 50  0001 C CNN
 	1    4600 2300
 	1    0    0    -1  

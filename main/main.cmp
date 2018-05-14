@@ -1,0 +1,107 @@
+Cmp-Mod V01 Created by PcbNew   date = Mon 14 May 2018 08:09:35 PM -03
+
+BeginCmp
+TimeStamp = 5AFA08EC
+Path = /5AEEC292
+Reference = J1;
+ValeurCmp = PROG;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA0AB6
+Path = /5AEB2D3B
+Reference = BT1;
+ValeurCmp = CR2477;
+IdModule  = Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA086A
+Path = /5AEB144C
+Reference = U1;
+ValeurCmp = MSP430FR2311IPW16R;
+IdModule  = Package_SO:TSSOP-16_4.4x5mm_P0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA076E
+Path = /5AEB0ECE
+Reference = U2;
+ValeurCmp = RFM64W;
+IdModule  = Custom_RF:RFM64W-433S2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA09C9
+Path = /5AEB194C
+Reference = SW1;
+ValeurCmp = CONFIG;
+IdModule  = Button_Switch_SMD:SW_SPST_EVPBF;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA0AD6
+Path = /5AEB11B2
+Reference = ANT1;
+ValeurCmp = 433MHz_HELICOIDAL;
+IdModule  = Connector_Wire:SolderWirePad_1x01_Drill0.8mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA098C
+Path = /5AEB16CA
+Reference = D1;
+ValeurCmp = RED;
+IdModule  = LED_SMD:LED_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA0E66
+Path = /5AEB1646
+Reference = D2;
+ValeurCmp = IR;
+IdModule  = LED_THT:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA0928
+Path = /5AECEBAB
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA0A39
+Path = /5AECEBA4
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA0A09
+Path = /5AEBEAEF
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA0A8D
+Path = /5AEE3CE2
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AFA0D17
+Path = /5AEE464D
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+EndListe
