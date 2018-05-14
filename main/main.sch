@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Houz IR Module"
+Date "2018-05-14"
+Rev "0.1"
+Comp "Houz Automation"
+Comment1 "David Krepsky"
 Comment2 ""
 Comment3 ""
 Comment4 ""
