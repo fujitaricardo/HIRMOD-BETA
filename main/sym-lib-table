@@ -2,4 +2,5 @@
   (lib (name Custom_Microcontroller)(type Legacy)(uri /home/houz/Projects/Houz/HIRMOD-BETA/KicadLibraries/lib_sch/Custom_Microcontroller.lib)(options "")(descr ""))
   (lib (name Custom_Misc)(type Legacy)(uri /home/houz/Projects/Houz/HIRMOD-BETA/KicadLibraries/lib_sch/Custom_Misc.lib)(options "")(descr ""))
   (lib (name Custom_RF)(type Legacy)(uri /home/houz/Projects/Houz/HIRMOD-BETA/KicadLibraries/lib_sch/Custom_RF.lib)(options "")(descr ""))
+  (lib (name main-rescue)(type Legacy)(uri ${KIPRJMOD}/main-rescue.lib)(options "")(descr ""))
 )

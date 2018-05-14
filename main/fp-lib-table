@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Custom_RF)(type KiCad)(uri /home/houz/Projects/Houz/HIRMOD-BETA/KicadLibraries/lib_fop/Custom_RF.pretty)(options "")(descr ""))
+)
