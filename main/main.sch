@@ -109,7 +109,7 @@ U 1 1 5AEB194C
 P 4500 4250
 F 0 "SW1" H 4500 4150 50  0000 C CNN
 F 1 "CONFIG" H 4500 4450 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_EVPBF" H 4500 4450 50  0001 C CNN
+F 2 "Custom_SwitchButton:SwitchButton_SMD_4x4mm" H 4500 4450 50  0001 C CNN
 F 3 "" H 4500 4450 50  0001 C CNN
 	1    4500 4250
 	0    1    1    0   
@@ -158,8 +158,6 @@ F 3 "" H 3000 3400 50  0001 C CNN
 	1    3000 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4500 3750 4500 3700
 $Comp
 L power:GND #PWR03
 U 1 1 5AEB797F
@@ -459,8 +457,6 @@ F 3 "" H 4500 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 850  4500 900 
-Wire Wire Line
 	4100 850  4500 850 
 Wire Wire Line
 	4500 1500 4500 1550
@@ -496,19 +492,19 @@ F 3 "" H 1800 1550 50  0001 C CNN
 	1    1800 1400
 	1    0    0    -1  
 $EndComp
-Text Label 2650 1850 2    50   ~ 0
+Text Label 2650 1750 2    50   ~ 0
 NSS_CFG
-Text Label 900  1350 0    50   ~ 0
-POR
+Text Label 2650 1150 2    50   ~ 0
+IR
 Text Label 900  950  0    50   ~ 0
 VDD
 Text Label 2650 950  2    50   ~ 0
 GND
-Text Label 2650 1650 2    50   ~ 0
+Text Label 2650 1550 2    50   ~ 0
 IRQ_0
-Text Label 2650 1750 2    50   ~ 0
+Text Label 2650 1650 2    50   ~ 0
 IRQ_1
-Text Label 2650 1050 2    50   ~ 0
+Text Label 2650 1850 2    50   ~ 0
 NSS_DATA
 Text Label 900  1250 0    50   ~ 0
 MOSI
@@ -517,10 +513,10 @@ MISO
 Text Label 900  1450 0    50   ~ 0
 SCLK
 Text Label 900  1050 0    50   ~ 0
-IR
-Text Label 900  1750 0    50   ~ 0
+POR
+Text Label 2650 1050 2    50   ~ 0
 STATUS
-Text Label 900  1850 0    50   ~ 0
+Text Label 2650 1450 2    50   ~ 0
 PB_CFG
 Wire Wire Line
 	2250 950  2650 950 
@@ -540,63 +536,20 @@ Wire Wire Line
 	2250 1750 2650 1750
 Wire Wire Line
 	2250 1850 2650 1850
-NoConn ~ 2650 1150
+NoConn ~ 900  1850
+NoConn ~ 900  1350
 NoConn ~ 2650 1350
-NoConn ~ 2650 1450
-NoConn ~ 2650 1550
 NoConn ~ 900  1550
 NoConn ~ 900  1650
+NoConn ~ 900  1750
 Wire Notes Line
 	3800 750  3800 2100
 Wire Notes Line
 	750  750  750  2100
-Text Notes 800  4500 0    50   ~ 0
-R: 0805\nC 10u: eletrolitico 4mm (medir)\nSW: 6x6mm smd (duqueeletronica)\nLEDs: 5mm\nBAT: deixar conectores
-$Comp
-L Device:R R8
-U 1 1 5AFCCFBC
-P 5600 2850
-F 0 "R8" H 5670 2896 50  0000 L CNN
-F 1 "0" H 5670 2805 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" V 5530 2850 50  0001 C CNN
-F 3 "~" H 5600 2850 50  0001 C CNN
-	1    5600 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 2600 5600 2700
-Wire Wire Line
-	5600 3000 5600 3100
 Wire Notes Line
 	6000 1950 6000 3200
 Wire Notes Line
 	5050 1950 5050 3200
-$Comp
-L Device:R R4
-U 1 1 5AFD7349
-P 1200 1150
-F 0 "R4" V 1150 1250 50  0000 L CNN
-F 1 "0" V 1200 1150 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" V 1130 1150 50  0001 C CNN
-F 3 "~" H 1200 1150 50  0001 C CNN
-	1    1200 1150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5AFDB9E4
-P 1200 1250
-F 0 "R5" V 1150 1350 50  0000 L CNN
-F 1 "0" V 1200 1250 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" V 1130 1250 50  0001 C CNN
-F 3 "~" H 1200 1250 50  0001 C CNN
-	1    1200 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1050 1150 900  1150
-Wire Wire Line
-	1050 1250 900  1250
 Wire Wire Line
 	900  950  1350 950 
 Wire Wire Line
@@ -621,26 +574,14 @@ Wire Notes Line
 	4000 750  4000 2150
 Wire Notes Line
 	4950 750  4950 2150
-$Comp
-L Device:R R7
-U 1 1 5AFF7CFB
-P 4500 3900
-F 0 "R7" H 4570 3946 50  0000 L CNN
-F 1 "0" H 4570 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" V 4430 3900 50  0001 C CNN
-F 3 "~" H 4500 3900 50  0001 C CNN
-	1    4500 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5B005788
-P 4500 1050
-F 0 "R6" H 4570 1096 50  0000 L CNN
-F 1 "0" H 4570 1005 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" V 4430 1050 50  0001 C CNN
-F 3 "~" H 4500 1050 50  0001 C CNN
-	1    4500 1050
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	4500 3700 4500 4050
+Wire Wire Line
+	5600 2600 5600 3100
+Wire Wire Line
+	4500 850  4500 1200
+Wire Wire Line
+	900  1150 1350 1150
+Wire Wire Line
+	900  1250 1350 1250
 $EndSCHEMATC

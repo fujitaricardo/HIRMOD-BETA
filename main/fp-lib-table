@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Custom_RF)(type KiCad)(uri /home/houz02/Projetos/HIRMOD-BETA/KicadLibraries/lib_fop/Custom_RF.pretty)(options "")(descr ""))
   (lib (name Custom_BoosterPack)(type KiCad)(uri /home/houz02/Projetos/HIRMOD-BETA/KicadLibraries/lib_fop/Custom_BoosterPack.pretty)(options "")(descr ""))
+  (lib (name Custom_SwitchButton)(type KiCad)(uri /home/houz02/Projetos/HIRMOD-BETA/KicadLibraries/lib_fop/Custom_SwitchButton.pretty)(options "")(descr ""))
 )
